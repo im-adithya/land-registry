@@ -41,7 +41,7 @@ cd client
 npm install
 npm start
 ```
-4. Repeat the same in server folder
+4. Repeat the same in server folder after creating a .env file with MONGOURI='/*Your mongodb URI*/'
 ```cmd
 cd server
 npm install
