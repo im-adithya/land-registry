@@ -1,0 +1,105 @@
+.superadmin {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 4px solid rgba(46, 49, 146, 1);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.adminpanel {
+    width: 60%;
+    height: auto;
+    max-height: 74vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.nodestatuses {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.nodestatus {
+    min-width: 170px;
+    width: 170px;
+    height: auto;
+    background-color: aliceblue;
+    border: 4px solid rgba(46, 49, 146, 1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.activenode, .approved {
+    color: rgb(0, 200, 0);
+}
+
+.idlenode, .pending {
+    color: rgb(255, 168, 70);
+}
+
+.damagednode, .rejected {
+    color: rgb(255, 61, 61);
+}
+
+.activenode>span, .approvedbg {
+    background-color: rgb(0, 200, 0) !important;
+}
+
+.idlenode>span, .pendingbg {
+    background-color: rgb(255, 168, 70) !important;
+}
+
+.damagednode>span, .rejectedbg {
+    background-color: rgb(255, 61, 61) !important;
+}
+
+.activenode>span, .idlenode>span, .damagednode>span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.adminslist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.adminel {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 4px solid rgba(46, 49, 146, 1);
+    border-radius: 20px;
+    margin: 10px 0 0;
+}
+
+.superadmintitle {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(46, 49, 146, 1);
+}

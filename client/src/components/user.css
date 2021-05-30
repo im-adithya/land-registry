@@ -1,0 +1,80 @@
+.user>.wrapper {
+    height: 60vh;
+}
+
+.userwrap {
+    width: 30%;
+}
+
+.wrappersmall {
+    position: relative;
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 4px solid rgba(46, 49, 146, 1);
+    border-radius: 20px;
+    margin: 1vh 0;
+    overflow-y: auto;
+}
+
+.justifystart {
+    justify-content: flex-start !important;
+}
+
+.wrappersmall::-webkit-scrollbar {
+    width: 5px;
+}
+
+.wrappersmall::-webkit-scrollbar-track {
+    margin: 15px 0;
+}
+
+.user .adminel {
+    width: 80%;
+    margin: 0 0 10px;
+}
+
+.regprop .adminel {
+    width: 85%;
+}
+
+.emptyel {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgba(46, 49, 146, 1);
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-l, .half-r {
+    width: 48% !important;
+    display: inline-block;
+}
+
+.half-l {
+    margin-right: 2% !important;
+}
+
+.half-r {
+    margin-left: 2% !important;
+}

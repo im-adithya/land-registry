@@ -1,0 +1,67 @@
+.logpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 4px solid rgba(46, 49, 146, 1);
+    border-radius: 20px;
+    height: 70%;
+    width: 30%;
+    padding: 20px 0;
+}
+
+.logbox>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    height: 40%;
+}
+
+.register {
+    height: 60%;
+}
+
+/*.logbox>div>*/
+
+h2 {
+    color: rgba(46, 49, 146, 1)
+}
+
+.line {
+    border-top: 3px solid rgba(46, 49, 146, 1);
+    width: 70%;
+    margin: 20px 0 5px;
+}
+
+.someimage {
+    width: 50%;
+    height: 60vh;
+    background-image: url(../assets/loginbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 4px solid rgba(46, 49, 146, 1);
+}
+
+.between {
+    font-size: 15px;
+    color: rgb(71, 75, 189);
+}
+
+.register .adminel {
+    width: 80%;
+}

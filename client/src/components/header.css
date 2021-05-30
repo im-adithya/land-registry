@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 20, 100, 1) 0%, rgba(46, 49, 146, 1) 14%, rgba(0, 113, 188, 1) 50%, rgba(46, 49, 146, 1) 86%, rgba(27, 20, 100, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin: 0 20px;
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.text-wrap h1 {
+    font-weight: normal;
+}
+
+.text-wrap * {
+    margin: 2px;
+    color: white;
+}
+
+.emblem-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

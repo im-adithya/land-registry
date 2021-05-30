@@ -1,0 +1,152 @@
+.App {
+  background-image: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+.main {
+  margin: auto;
+  max-width: 1200px;
+  height: 93vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 3px solid rgb(255, 255, 255);
+  border-top: none;
+}
+
+.app-input {
+  font-family: 'Basic';
+  border: 2px solid rgba(46, 49, 146, 1);
+  outline: none;
+  width: 60%;
+  height: 20px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.app-button-1 {
+  font-family: 'Basic';
+  height: 40px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 10px 0;
+  width: 60%;
+  border: none;
+  background-color: rgba(46, 49, 146, 1);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-button-1-inactive {
+  background-color: rgb(82, 85, 168);
+  color: white;
+  cursor: not-allowed;
+}
+
+.app-button-2 {
+  font-family: 'Basic';
+  height: 30px;
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin: 10px 0 0;
+  width: 100%;
+  border: none;
+  background-color: #32b737;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-button-2-inactive {
+  background-color: #78cb7c;
+  color: white;
+  cursor: not-allowed;
+}
+
+.fox {
+  margin: 0 7px;
+}
+
+.components {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #2e3192;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e3192;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.logout {
+  position: absolute;
+  background-color: aliceblue;
+  color: #2e3192;
+  border: 2px solid #2e3192;
+  border-radius: 5px;
+  bottom: 2px;
+  width: 35px;
+  height: 35px;
+  right: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
